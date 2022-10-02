@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap" rel="stylesheet">
+    <title>Survey Form</title>
+
+  </head>
+
+  <body>
+
+    <h1 id="title">Most fun programming languages survey</h1>
+    <p id="description">We're collecting data intended to show what's the most desirable programming language to work with.</p>
+    <form id="survey-form">
+
+        <fieldset>
+            <label class="firstfield" for="name-label">Name<input id="name-label" type="text" placeholder="Name" required></label>
+            <label class="firstfield" for="email-label">Email<input id="email-label" type="email" placeholder="example@email.com" required></input></label>
+            <label class="firstfield" for="number-label">Age<input id="number-label" type="number" min="14" max="99" placeholder="18"></label>
+        </fieldset>
+
+        <fieldset>
+            <label class="drop">Which one of the following is your favorite programming language:
+            <select id="dropdown">
+                <option>Java</option>
+                <option>Python</option>
+                <option>C++</option>
+                <option>C</option>
+                <option>Swift</option>
+                <option>Kotlin</option>
+            </select>
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <label class="questionlabel">Are you most or least likely to keep using the language choosen in the next 10 years?</label>
+            <label class="selectionlabels"><input class="selectionbuttons" type="radio" name="myRad"> Most likely</label>
+            <label class="selectionlabels"><input class="selectionbuttons" type="radio" name="myRad"> Not sure</label>
+            <label class="selectionlabels"><input class="selectionbuttons" type="radio" name="myRad"> Least likely</label>
+        </fieldset>
+
+        <fieldset>
+            <label class="questionlabel">Select all of the items that apply regarding why you use the language choosen:</label>
+            <label class="selectionlabels"><input class="selectionbuttons" type="checkbox" value="first"> It's challenging</label>
+            <label class="selectionlabels"><input class="selectionbuttons" type="checkbox" value="second"> I have fun while using it</label>
+            <label class="selectionlabels"><input class="selectionbuttons" type="checkbox" value="third"> It'll be widely use in the future</label>
+            <label class="selectionlabels"><input class="selectionbuttons" type="checkbox" value="forth"> It's a niche programming language</label>
+            <label class="selectionlabels"><input class="selectionbuttons" type="checkbox" value="fifth"> I use it everyday at work</label>
+            <label class="selectionlabels"><input class="selectionbuttons" type="checkbox" value="sixth"> It provides more tools related to my interests than other languages</label>
+        </fieldset>
+
+        <fieldset>
+            <label class="questionlabel" >If your favorite programming language was not on the list, please tell us which one you use and why:</label>
+              <label class="selectionlabels"><textarea placeholder="Tell us more about your favorite programming language." rows="3" cols="50"></textarea></label>
+        </fieldset>
+
+        <div>
+          <button id="submit" type="submit">Submit</button>
+        </div>
+        
+      
+
+
+    </form>
+  </body>
+</html>

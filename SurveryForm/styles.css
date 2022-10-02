@@ -1,0 +1,80 @@
+body {
+    background-color: #45171d;
+    font-family: 'Slabo 27px', serif;
+    color: #fecea8;
+}
+
+h1, p {
+    text-align: center;
+}
+
+form {
+    width: 700px;
+    margin: auto;
+    background-color: #e84a5f;
+    padding-bottom: 0.5em;
+}
+
+fieldset {
+    border-style: none;
+}
+
+label {
+    margin: 0.25rem 0;
+}
+
+.firstfield {
+    display: block;
+    margin: 0.5em 0.85em 0.5em 0.5em;
+}
+
+
+input {
+    width: 100%;
+    margin-top: 0.5em;
+}
+
+.drop {
+    display: block;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+#dropdown {
+    margin-top: 0.5em;
+    width: 100%;
+}
+
+.questionlabel {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.selectionlabels {
+    display: block;
+    line-height: 150%;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.selectionbuttons {
+    width: auto;
+}
+
+textarea {
+    width: 99%;
+    margin-right: 0.5em;
+}
+
+div {
+    margin-bottom: 0.5em;
+}
+
+#submit {
+    display: block;
+    width: 90%;
+    margin: 0.75em auto;
+    background-color: #ff847c;
+    border-style: none;
+    padding: 0.5em 0 0.5em 0;
+}
